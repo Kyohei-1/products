@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>テニスショップ | Winner</title>
+    <link
+            rel="stylesheet"
+            href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+            integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+            crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css"/>
+</head>
+<body>
+<div class="modal js-show-modal-target">
+    <h2>Sample Title</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum quo adipisci tenetur
+        dignissimos odit magnam totam! Nobis nemo minima repellendus tempore necessitatibus atque
+        odit, ratione quos sapiente nulla, explicabo blanditiis.</p>
+    <button class="btn btn-close js-hide-modal">閉じる</button>
+</div>
+<div class="cover js-show-modal-cover"></div>
+<!--    <div class="wrap">-->
+<header class="header container-fluid">
+    <div class="row">
+        <div class="col">
+
+
+            <h1 class="site-logo">
+                <a href="index.html">Winner</a>
+            </h1>
+
+            <div class="menu-trigger js-toggle-sp-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <nav class="nav-menu js-toggle-sp-menu-target">
+                <ul class="menu">
+                    <li class="menu-item"><a class="menu-link" href="">トップ</a></li>
+                    <li class="menu-item">
+                        <a class="menu-link" href="#news">ニュース</a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link" href="#new-product">新商品</a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link" href="#item-introductions">商品紹介</a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link" href="#greeting">ご挨拶</a>
+                    </li>
+
+                    <li class="menu-item">
+                        <a class="menu-link" href="#store-information">店舗情報</a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link" href="#contact">お問い合わせ</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+    </div>
+
+
+</header>
+
+<div class="main">
+
+    <!-- ヒーローヘッダー -->
+    <div class="hero-header container">
+        <div class="row">
+            <div class="col">
+                <img class="hero-img" src="./img/hero.jpg" alt="店舗内の写真"/>
+                <!-- 画像はコーラルというテニス・スカッシュ・ラケットボール専門店から -->
+            </div>
+        </div>
+    </div>
+    <!-- Start お知らせ News -->
+    <div class="news container">
+        <div class="row">
+            <div class="col">
+                <h3 id="news" class="section-title">お知らせ</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="box_scrollbar col-10">
+                10/06 新作テニスラケットが再入荷しました。<br/>
+                10/05 新作ウェアを追加しました。<br/>
+                10/04 アプリ特典を追加しました。<br/>
+                10/03 ラケットが再入荷しました。<br/>
+                10/02 プロテインバーが再入荷しました。<br/>
+                10/01 テニスボールが再入荷しました。<br/>
+                09/28 スカッシュラケットが再入荷しました。<br/>
+                09/25 ソックスを追加しました。<br/>
+                09/23 ブログ記事を追加しました。<br/>
+                09/22 アルバイトスタッフ募集を追加しました。<br/>
+                09/20 社員旅行を追加しました。<br/>
+            </div>
+        </div>
+
+    </div>
+    <!--End お知らせ-->
+    <!--Start 新商品 New Products-->
+    <div class="container new-products">
+        <div class="row">
+            <div class="col">
+                <h3 id="new-product" class="section-title">新商品</h3>
+            </div>
+        </div>
+
+        <!-- 画像スライダー -->
+        <div class="slider">
+            <!--前に戻るボタン-->
+            <div class="btn btn-prev js-slide-prev">
+                <i class="fas fa-angle-left"></i>
+            </div>
+            <!--先へ進むボタン-->
+
+            <div class="btn btn-next js-slide-next">
+                <i class="fas fa-angle-right"></i>
+            </div>
+
+            <ul class="slider-container js-slide-container row">
+                <!--表示する画像-->
+                <li class="js-slide-item slider-item">
+                    <img class="js-slide-item-img slider-item-img" src="./img/list-1.jpg" alt=""/>
+                </li>
+
+                <li class="js-slide-item slider-item">
+                    <img class="js-show-modal js-slide-item-img slider-item-img" src="./img/list-2.jpg" alt=""/>
+                </li>
+                <li class="js-slide-item slider-item">
+                    <img class="js-slide-item-img slider-item-img" src="./img/list-3.jpg" alt=""/>
+                </li>
+                <li class="js-slide-item slider-item">
+                    <img class="js-slide-item-img slider-item-img" src="./img/list-4.jpg" alt=""/>
+                </li>
+                <li class="js-slide-item slider-item">
+                    <img class="js-slide-item-img slider-item-img" src="./img/list-5.jpg" alt=""/>
+                </li>
+                <li class="js-slide-item slider-item">
+                    <img class="js-slide-item-img slider-item-img" src="./img/list-6.jpg" alt=""/>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- End 新商品-->
+<!--Start 商品紹介 item introduction-->
+<div class="container item-introductions">
+    <div class="row">
+        <div class="col">
+            <h3 id="item-introductions" class="section-title">商品紹介</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col item-container">
+
+            <div class="js-show-modal item-detail scale-big">
+
+                <img src="./img/product-1.jpg" alt=""/>
+            </div>
+            <div class="item-detail scale-big">
+                <img src="./img/product-2.jpg" alt=""/>
+            </div>
+            <div class="item-detail scale-big">
+                <img src="./img/product-3.jpg" alt=""/>
+            </div>
+            <div class="item-detail scale-big">
+                <img src="./img/product-4.jpg" alt=""/>
+            </div>
+            <div class="item-detail scale-big">
+                <img src="./img/product-5.jpg" alt=""/>
+            </div>
+            <div class="item-detail scale-small">
+                <img src="./img/product-6.jpg" alt=""/>
+            </div>
+            <div class="item-detail scale-small">
+                <img src="./img/product-7.jpg" alt=""/>
+            </div>
+            <div class="item-detail scale-small">
+                <img src="./img/product-8.jpg" alt=""/>
+            </div>
+            <div class="item-detail scale-small">
+                <img src="./img/product-9.jpg" alt=""/>
+            </div>
+            <div class="item-detail scale-small">
+                <img src="./img/product-10.jpg" alt=""/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+<div class="greeting container">
+    <!--Start 挨拶 greeting-->
+    <div class="row">
+        <div class="col">
+            <h3 id="greeting" class="section-title">ご挨拶</h3>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col greeting-container">
+
+            <div class="show-data">
+                <!--アイコンと名前-->
+                <div class="icon">
+                    <img class="management-person-icon" src="./img/icon.jpg" alt=""/>
+                </div>
+                <p class="name">【運営者】 キョーヘー</p>
+            </div>
+            <div class="message">
+                はじめまして。
+                東京でテニスショップを開業致しましたキョーヘーです。<br/>「テニスを、野球やサッカーのように子供に遊ばれるメジャースポーツに！！」<br/>を合言葉とし、地域の方々やお客様のおかげで運営が出来ています。<br/>また、月に一回程ではありますが、<br/>お客様や地域の学生達、社会人のテニス仲間と共に、<br/>「練習会」を行っています。<br/>実力や年齢等、一切関係なくテニス好きがテニスをするというものですので、<br/>ご興味があればお気軽にお声掛けください。
+            </div>
+        </div>
+
+    </div>
+</div>
+<!--End 挨拶-->
+<!--Start 店舗情報 store information-->
+<div class="container store-information">
+    <div class="row">
+        <div class="col">
+            <h3 id="store-information" class="section-title">店舗情報</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col store-info">
+            <p class="store-info-detail">
+                住所: 東京都墨田区押上１丁目１−２<br/>
+                郵便番号: 〒131-8634<br/>
+                電話番号: 0000-00-0000<br/>
+                営業時間: AM10:00 - PM6:00
+            </p>
+        </div>
+    </div>
+
+
+    <div class="store-map">
+        <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d51862.583257166094!2d139.65758124727375!3d35.666869530440245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sja!2sjp!4v1604793158458!5m2!1sja!2sjp"
+                frameborder="0"
+                style="border: 0"
+                allowfullscreen=""
+                aria-hidden="false"
+                tabindex="0"
+        ></iframe>
+    </div>
+</div>
+<!--End 店舗情報 -->
+
+<!--Start お問い合わせ contact-->
+<div class="contact container">
+    <div class="row">
+        <div class="col">
+            <h3 id="contact" class="section-title">お問い合わせ</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <form action="" method="post">
+                <label>
+                    <input
+                            name="name"
+                            type="text"
+                            placeholder="お名前"
+                            class="post-name js-post-name"
+                    />
+                </label>
+                <label>
+                    <input
+                            name="email"
+                            type="text"
+                            placeholder="メールアドレス"
+                            class="post-email js-post-email"
+                    />
+                </label>
+                <label>
+                    <textarea
+                            class="post-message js-post-message"
+                            name="detail"
+                            cols="100"
+                            rows="10"
+                            placeholder="お問い合わせ内容"
+                    ></textarea>
+                </label>
+
+                <input class="submit-btn" type="submit" value="送信"/>
+            </form>
+
+            <span class="suc-msg"></span>
+        </div>
+    </div>
+</div>
+<!--End お問い合わせ-->
+
+
+<!--End Main-->
+<div class="footer">
+    <span>Copyright &copy; Winner Corporation. All rights reserved.</span>
+</div>
+
+
+<script src="./node_modules/jquery/dist/jquery.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

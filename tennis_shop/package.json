@@ -1,0 +1,17 @@
+{
+  "name": "HTML_EX_OP",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "node-sass --include-path scss scss/style.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "jquery": "^3.5.1",
+    "node-sass": "4.9.4",
+    "nodemon": "1.18.4",
+    "popper.js": "^1.16.1"
+  }
+}
